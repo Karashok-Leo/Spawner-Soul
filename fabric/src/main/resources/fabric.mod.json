@@ -1,0 +1,25 @@
+{
+    "schemaVersion": 1,
+    "id": "spawner_soul",
+    "version": "${version}",
+    "name": "${mod_name}",
+    "description": "${description}",
+    "authors": ["${mod_author}"],
+    "contact": {
+        "sources": "https://github.com/Karashok-Leo/Spawner-Soul",
+        "issues": "https://github.com/Karashok-Leo/Spawner-Soul/issues"
+    },
+    "license": "${license}",
+    "icon": "assets/spawner_soul/textures/item/spawner_soul.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": ["karashokleo.spawner_soul.SpawnerSoulFabric"]
+    },
+    "mixins": ["${mod_id}.mixins.json"],
+    "depends": {
+        "fabricloader": ">=${fabric_loader_version}",
+        "fabric-api": "*",
+        "minecraft": "${minecraft_version}",
+        "java": ">=${java_version}"
+    }
+}

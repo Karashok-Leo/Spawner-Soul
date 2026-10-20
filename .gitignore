@@ -1,0 +1,29 @@
+# Build outputs and Gradle caches
+.gradle/
+**/build/
+
+# Local IDE configuration
+.idea/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+.metadata/
+*.launch
+bin/
+out/
+eclipse/
+.vscode/
+
+# Development game data and temporary validation artifacts
+**/run/
+**/runs/
+logs/
+crash-reports/
+*.log
+
+# Local OS files
+.DS_Store
+Thumbs.db
