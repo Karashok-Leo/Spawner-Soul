@@ -59,12 +59,16 @@ repositories {
 }
 
 sourcesJar {
+    from(rootProject.file('THIRD_PARTY_NOTICES.md'))
+    from(rootProject.file('LICENSES')) { into 'LICENSES' }
     from(rootProject.file('LICENSE')) {
         rename { "${it}_${mod_name}" }
     }
 }
 
 jar {
+    from(rootProject.file('THIRD_PARTY_NOTICES.md'))
+    from(rootProject.file('LICENSES')) { into 'LICENSES' }
     from(rootProject.file('LICENSE')) {
         rename { "${it}_${mod_name}" }
     }

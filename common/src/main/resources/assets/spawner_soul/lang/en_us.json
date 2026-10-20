@@ -1,0 +1,10 @@
+{
+    "item.spawner_soul.spawner_soul": "Spawner Soul",
+    "tooltip.spawner_soul.empty": "No usable soul stored",
+    "tooltip.spawner_soul.entity": "Entity: %s",
+    "tooltip.spawner_soul.remaining": "Remaining spawns: %s",
+    "tooltip.spawner_soul.infinite": "Infinite",
+    "message.spawner_soul.rejected": "This soul cannot change the spawner under the current rules.",
+    "command.spawner_soul.reload.success": "Spawner Soul configuration reloaded.",
+    "command.spawner_soul.reload.failure": "Reload rejected; previous settings and your file are unchanged: %s"
+}

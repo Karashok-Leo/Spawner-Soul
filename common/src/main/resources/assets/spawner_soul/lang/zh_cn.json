@@ -1,0 +1,10 @@
+{
+    "item.spawner_soul.spawner_soul": "笼中魄",
+    "tooltip.spawner_soul.empty": "未储存可用的魂魄",
+    "tooltip.spawner_soul.entity": "生物：%s",
+    "tooltip.spawner_soul.remaining": "剩余生成次数：%s",
+    "tooltip.spawner_soul.infinite": "无限",
+    "message.spawner_soul.rejected": "按照当前规则，这件笼中魄无法改变此刷怪笼。",
+    "command.spawner_soul.reload.success": "笼中魄配置已重新加载。",
+    "command.spawner_soul.reload.failure": "重载失败，仍使用原配置，文件未被修改：%s"
+}
